@@ -32,7 +32,7 @@ class Program
         //OUTPUT
         Console.WriteLine($"Risultato = {D}");      
 
-
+        //Modificato più tardi
     }
 }
 
