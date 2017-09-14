@@ -1,14 +1,12 @@
 ﻿using System;
 
-class Program
+class Esercizio
 {
     static void Main()
     {
         int anno, mese, giorno, Y, M, D;
-
+        
         // INPUT
-        // cout << "Anno: ";
-        // cin >> anno;
         Console.Write("Anno: ");
         anno = int.Parse(Console.ReadLine());
 
@@ -31,8 +29,6 @@ class Program
 
         //OUTPUT
         Console.WriteLine($"Risultato = {D}");      
-
-        //Modificato più tardi
     }
 }
 
