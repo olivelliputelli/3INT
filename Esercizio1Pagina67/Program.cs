@@ -9,6 +9,8 @@ class Es1Pag67
 {
     static void Main()
     {
+        // dichiarazione ed 
+        // inizializzazione delle variabili.
         double raggio = 0, area = 0;
 
         // INPUT
@@ -16,12 +18,10 @@ class Es1Pag67
         raggio = double.Parse(Console.ReadLine());
         
         // ELABORAZIONE
-        area = Math.PI * Math.Pow(raggio, 2);
+        area = Math.PI * Math.Pow(raggio,2);
 
         // OUTPUT
         Console.WriteLine($"Area = {area}");
-
-        // Modificato alle ore 8:16 dalla 3B
     }
 }
 

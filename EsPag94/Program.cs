@@ -1,11 +1,11 @@
 ﻿using System;
 
-class Esercizio
+class EsempioPag94
 {
     static void Main()
     {
         int anno, mese, giorno, Y, M, D;
-        
+
         // INPUT
         Console.Write("Anno: ");
         anno = int.Parse(Console.ReadLine());
@@ -28,7 +28,7 @@ class Esercizio
         D = ((giorno + Y + (Y / 4) - (Y / 100) + (Y / 400) + (31 * M / 12)) % 7);
 
         //OUTPUT
-        Console.WriteLine($"Risultato = {D}");      
+        Console.WriteLine($"il {giorno}/{mese}/{anno} è il {D} giorno della settimana!");      
     }
 }
 
