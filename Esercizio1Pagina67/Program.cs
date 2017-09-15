@@ -14,12 +14,14 @@ class Es1Pag67
         // INPUT
         Console.Write("Raggio: ");
         raggio = double.Parse(Console.ReadLine());
-
+        
         // ELABORAZIONE
-        area = Math.PI * Math.Pow(raggio,2);
+        area = Math.PI * Math.Pow(raggio, 2);
 
         // OUTPUT
         Console.WriteLine($"Area = {area}");
+
+        // Modificato alle ore 8:16 dalla 3B
     }
 }
 
